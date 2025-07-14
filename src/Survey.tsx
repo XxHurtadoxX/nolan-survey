@@ -864,15 +864,29 @@ const Survey: React.FC = () => {
               </div>
             </div>
           </div>
-            <footer className="mt-8 pt-6 border-t border-gray-200 text-center text-sm text-gray-600">
-              <p>
-                © 2024 - Todos los derechos reservados | 
-                <span className="font-medium text-gray-800"> Daniel Hurtado</span> & 
-                <span className="font-medium text-gray-800"> EA Tech Company S.A.S.</span>
-              </p>
-              <p className="mt-1 text-xs text-gray-500">
-                Encuesta de Posicionamiento Político - Diagrama de Nolan
-              </p>
+            <footer className="mt-8 pt-6 border-t border-gray-200 text-sm text-gray-600">
+              <div className="flex flex-col items-center">
+                <div className="inline-flex items-start gap-4 max-w-3xl">
+                  {/* Logo a la izquierda */}
+                  <div className="shrink-0 relative -top-2">
+                    <img 
+                      src="https://i.imgur.com/p5QcCPf.png " 
+                      alt="Logo EA Tech Company" 
+                      className="h-16"
+                    />
+                  </div>
+
+                  {/* Texto alineado a la izquierda, junto al logo */}
+                  <div className="text-left">
+                    <p className="text-sm font-medium text-gray-800">
+                      © 2025 - Todos los derechos reservados | Daniel Hurtado & EA Tech Company S.A.S.
+                    </p>
+                    <p className="mt-1 text-xs text-gray-500">
+                      Encuesta de Posicionamiento Político - Diagrama de Nolan
+                    </p>
+                  </div>
+                </div>
+              </div>
             </footer>
         </div>
       </div>
