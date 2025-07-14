@@ -5,15 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "homepage": "https://XxHurtadoxX.github.io/nolan-survey",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "lucide-react": "^0.525.0",
